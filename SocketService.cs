@@ -34,7 +34,7 @@ namespace SocketService
             _isRunning = false;
             if (_server != null)
             {
-                _server.Stop(); 
+                _server.Stop();
             }
         }
 
@@ -61,13 +61,25 @@ namespace SocketService
                 EventLog.WriteEntry($"Error en el servidor: {ex.Message}", EventLogEntryType.Error);
             }
         }
-
         private void HandleClient(TcpClient client)
         {
             using (NetworkStream stream = client.GetStream())
             {
                 StreamReader reader = new StreamReader(stream);
                 StreamWriter writer = new StreamWriter(stream) { AutoFlush = true };
+
+                writer.WriteLine("IDENTIFICARSE");
+
+                string deviceName = reader.ReadLine();
+                if (string.IsNullOrWhiteSpace(deviceName))
+                {
+                    writer.WriteLine("ERROR: Nombre inválido.");
+                    client.Close();
+                    return;
+                }
+
+                _connectedClients[client] = deviceName;
+                EventLog.WriteEntry($"Nuevo dispositivo conectado: {deviceName}", EventLogEntryType.Information);
 
                 while (_isRunning)
                 {
@@ -93,10 +105,12 @@ namespace SocketService
                     }
                     catch (Exception ex)
                     {
-                        EventLog.WriteEntry($"Error al manejar cliente: {ex.Message}", EventLogEntryType.Error);
+                        EventLog.WriteEntry($"Error al manejar cliente {deviceName}: {ex.Message}", EventLogEntryType.Error);
                         break;
                     }
                 }
+                _connectedClients.Remove(client);
+                EventLog.WriteEntry($"Dispositivo desconectado: {deviceName}", EventLogEntryType.Information);
             }
         }
 
