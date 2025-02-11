@@ -8,6 +8,7 @@ using System.Net.Sockets;
 using System.ServiceProcess;
 using System.Text;
 using System.Threading;
+using System.Collections.Generic;
 
 namespace SocketService
 {
@@ -15,6 +16,7 @@ namespace SocketService
     {
         private TcpListener _server;
         private bool _isRunning;
+        private Dictionary<TcpClient, string> _connectedClients = new Dictionary<TcpClient, string>();
 
         public SocketService()
         {
@@ -67,8 +69,6 @@ namespace SocketService
             {
                 StreamReader reader = new StreamReader(stream);
                 StreamWriter writer = new StreamWriter(stream) { AutoFlush = true };
-
-                writer.WriteLine("IDENTIFICARSE");
 
                 string deviceName = reader.ReadLine();
                 if (string.IsNullOrWhiteSpace(deviceName))
