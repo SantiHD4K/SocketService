@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
 using System.Security.Claims;
+using System.Security.Cryptography;
 
 namespace SocketService
 {
@@ -94,9 +95,21 @@ namespace SocketService
                         string[] parts = request.Split('|');
                         string action = parts[0];
 
+                        if (action != "LOGIN")
+                        {
+                            string token = parts[1];
+                            string usuario = parts[2];
+
+                            if (!ValidateTokenAndUser(token, usuario))
+                            {
+                                writer.WriteLine("ERROR: Token inválido, expirado o no coincide con el usuario.");
+                                continue;
+                            }
+                        }
+
                         if (action == "CONSULTAR")
                         {
-                            long codigoBarra = long.Parse(parts[1]);
+                            long codigoBarra = long.Parse(parts[3]);
                             string response = ConsultarProducto(codigoBarra);
                             writer.WriteLine(response);
                         }
@@ -121,7 +134,6 @@ namespace SocketService
                 EventLog.WriteEntry($"Dispositivo desconectado: {deviceName}", EventLogEntryType.Information);
             }
         }
-
 
         private string ConsultarProducto(long codigoBarra)
         {
@@ -152,12 +164,37 @@ namespace SocketService
         {
             try
             {
-                long codigoBarra = long.Parse(datos[1]);
+                if (datos.Length < 7)
+                {
+                    return "ERROR: Faltan datos para crear el producto.";
+                }
+
+                if (!long.TryParse(datos[1], out long codigoBarra))
+                {
+                    return "ERROR: Código de barras no válido.";
+                }
+
                 string nombre = datos[2];
-                decimal precio = decimal.Parse(datos[3]);
-                decimal costo = decimal.Parse(datos[4]);
-                decimal precioPromo = decimal.Parse(datos[5]);
-                int iva = int.Parse(datos[6]);
+
+                if (!decimal.TryParse(datos[3], out decimal precio))
+                {
+                    return "ERROR: Precio no válido.";
+                }
+
+                if (!decimal.TryParse(datos[4], out decimal costo))
+                {
+                    return "ERROR: Costo no válido.";
+                }
+
+                if (!decimal.TryParse(datos[5], out decimal precioPromo))
+                {
+                    return "ERROR: Precio promoción no válido.";
+                }
+
+                if (!int.TryParse(datos[6], out int iva))
+                {
+                    return "ERROR: IVA no válido.";
+                }
 
                 string connectionString = ConfigurationManager.ConnectionStrings["SQLServer"].ConnectionString;
                 using (SqlConnection connection = new SqlConnection(connectionString))
@@ -221,7 +258,7 @@ namespace SocketService
                         int rowsAffected = command.ExecuteNonQuery();
                         if (rowsAffected > 0)
                         {
-                            return "LOGIN_EXITOSO";
+                            return $"LOGIN_EXITOSO|{token}";
                         }
                         else
                         {
@@ -240,9 +277,16 @@ namespace SocketService
 
         private string GenerateJwtToken(string usuario, string dispositivo)
         {
-            var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("UnaClaveMuchoMasLargaYSeguraDe32CaracteresOmas!")); // Nueva clave
+            byte[] key = new byte[32];
+            using (var rng = RandomNumberGenerator.Create())
+            {
+                rng.GetBytes(key);
+            }
+            var secretKey = new SymmetricSecurityKey(key);
+
             var signinCredentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
 
+            // Definir los claims (información del token)
             var claims = new List<Claim>
             {
                 new Claim("usuario", usuario),
@@ -250,6 +294,7 @@ namespace SocketService
                 new Claim("fecha", DateTime.Now.ToString("o"))
             };
 
+            // Crear el token JWT
             var tokenOptions = new JwtSecurityToken(
                 issuer: "TuServidor",
                 audience: "TuCliente",
@@ -263,6 +308,48 @@ namespace SocketService
             return tokenString;
         }
 
+        private bool ValidateTokenAndUser(string token, string usuario)
+        {
+            try
+            {
+                string connectionString = ConfigurationManager.ConnectionStrings["SQLServer"].ConnectionString;
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+                    string query = "SELECT Expiracion, Usuario FROM Sesiones WHERE Token = @Token";
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@Token", token);
+
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                DateTime expiracion = reader.GetDateTime(0);
+                                string usuarioAsociado = reader.GetString(1);
+
+                                if (DateTime.Now <= expiracion && usuarioAsociado == usuario)
+                                {
+                                    return true;
+                                }
+                                else
+                                {
+                                    return false;
+                                }
+                            }
+                            else
+                            {
+                                return false;
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
 
     }
 }
