@@ -111,7 +111,7 @@ namespace SocketService.Security
                         }
                         else
                         {
-                            Console.WriteLine("Error al insertar la sesión, filas afectadas: 0");
+                            Console.WriteLine("Error al insertar la sesión");
                             return "ERROR: No se insertaron filas.";
                         }
                     }

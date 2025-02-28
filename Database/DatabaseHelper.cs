@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Configuration;
 using System.Data.SqlClient;
-namespace SocketService.Database {
+namespace SocketService.Database
+{
 
     public static class DatabaseHelper
     {
@@ -20,7 +21,7 @@ namespace SocketService.Database {
                     {
                         if (reader.Read())
                         {
-                            return $"{reader["CodigoBarra"]}|{reader["Nombre"]}|{reader["Precio"]}|{reader["Costo"]}|{reader["PrecioPromo"]}|{reader["IVA"]}";
+                            return $"{reader["CodigoBarra"]}|{reader["PLU"]}|{reader["Nombre"]}|{reader["Precio"]}|{reader["Costo"]}|{reader["PrecioPromo"]}|{reader["IVA"]}|{reader["Activo"]}|{reader["Existencia"]}|{reader["Ext_Minima"]}|{reader["Ext_Maxima"]}|{reader["Rentabilidad_Minima"]}|{reader["Avg_Venta"]}|{reader["Avg_Compra"]}|{reader["Ultima_Compra"]}|{reader["Ultima_Venta"]}";
                         }
                     }
                 }
