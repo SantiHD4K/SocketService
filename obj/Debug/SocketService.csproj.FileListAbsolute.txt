@@ -26,9 +26,8 @@ C:\Users\User\source\repos\SocketService\SocketService\bin\Debug\System.ValueTup
 C:\Users\User\source\repos\SocketService\SocketService\obj\Debug\SocketSe.1EBCDB89.Up2Date
 C:\Users\User\source\repos\SocketService\SocketService\obj\Debug\SocketService.exe
 C:\Users\User\source\repos\SocketService\SocketService\obj\Debug\SocketService.pdb
-C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe.config
 C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
-C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.pdb
+C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe.config
 C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\Microsoft.Bcl.Memory.dll
 C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\Microsoft.Bcl.TimeProvider.dll
@@ -54,3 +53,4 @@ C:\Users\User\Documents\GitHub\SocketService\SocketService\obj\Debug\SocketServi
 C:\Users\User\Documents\GitHub\SocketService\SocketService\obj\Debug\SocketSe.1EBCDB89.Up2Date
 C:\Users\User\Documents\GitHub\SocketService\SocketService\obj\Debug\SocketService.exe
 C:\Users\User\Documents\GitHub\SocketService\SocketService\obj\Debug\SocketService.pdb
+C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.pdb

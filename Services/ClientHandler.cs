@@ -1,10 +1,11 @@
-﻿using System;
+﻿using SocketService.Database;
+using SocketService.Security;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
+using System.Linq;
 using System.Net.Sockets;
-using SocketService.Database;
-using SocketService.Security;
 
 namespace SocketService.Services
 {
@@ -32,14 +33,16 @@ namespace SocketService.Services
                 StreamReader reader = new StreamReader(stream);
                 StreamWriter writer = new StreamWriter(stream) { AutoFlush = true };
 
-                string deviceName = reader.ReadLine();
-                if (string.IsNullOrWhiteSpace(deviceName))
+                string initialMessage = reader.ReadLine();
+
+                if (string.IsNullOrWhiteSpace(initialMessage) || initialMessage.Contains("|"))
                 {
-                    writer.WriteLine("ERROR: Nombre inválido.");
+                    writer.WriteLine("ERROR: Nombre de dispositivo inválido.");
                     _client.Close();
                     return;
                 }
 
+                string deviceName = initialMessage;
                 _connectedClients[_client] = deviceName;
                 LogEvent($"Nuevo dispositivo conectado: {deviceName}");
 
@@ -55,6 +58,12 @@ namespace SocketService.Services
 
                         if (action != "LOGIN")
                         {
+                            if (parts.Length < 3)
+                            {
+                                writer.WriteLine("ERROR: Mensaje mal formado.");
+                                continue;
+                            }
+
                             string token = parts[1];
                             string usuario = parts[2];
 
@@ -80,14 +89,23 @@ namespace SocketService.Services
             }
         }
 
+
         private string ProcessRequest(string[] parts)
         {
-            switch (parts[0])
+            string action = parts[0];
+
+            switch (action)
             {
                 case "CONSULTAR":
                     return DatabaseHelper.ConsultarProducto(long.Parse(parts[3]));
                 case "CREAR":
-                    return DatabaseHelper.CrearProducto(parts);
+                    return DatabaseHelper.CrearProducto(parts.Skip(3).ToArray());
+                case "ACTUALIZAR":
+                    return DatabaseHelper.ActualizarProducto(parts);
+                case "ELIMINAR":
+                    return DatabaseHelper.EliminarProducto(long.Parse(parts[3]));
+                case "LISTAR":
+                    return DatabaseHelper.ListarProductos();
                 case "LOGIN":
                     return JwtHelper.Login(parts);
                 default:

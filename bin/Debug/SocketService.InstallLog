@@ -120,3 +120,431 @@ Affected parameters are:
    logtoconsole = 
    assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
    logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Uninstalling assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Removing EventLog source SocketService.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Removing EventLog source SocketService.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Removing EventLog source SocketService.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Removing EventLog source SocketService.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Removing EventLog source SocketService.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Installing service SocketService...
+Creating EventLog source SocketService in log Application...
+Rolling back assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Restoring event log to previous state for source SocketService.
+Uninstalling assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Removing EventLog source SocketService.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Removing EventLog source SocketService.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Removing EventLog source SocketService.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Removing EventLog source SocketService.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Removing EventLog source SocketService.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Removing EventLog source SocketService.
+Service SocketService is being removed from the system...
+Service SocketService was successfully removed from the system.
+Installing assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Installing service SocketService...
+Service SocketService has been successfully installed.
+Creating EventLog source SocketService in log Application...
+Committing assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Uninstalling assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Removing EventLog source SocketService.
+Service SocketService is being removed from the system...
+Service SocketService was successfully removed from the system.
+Attempt to stop service SocketService.
+Uninstalling assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Removing EventLog source SocketService.
+Service SocketService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Installing service SocketService...
+Service SocketService has been successfully installed.
+Creating EventLog source SocketService in log Application...
+Committing assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Uninstalling assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Removing EventLog source SocketService.
+Service SocketService is being removed from the system...
+Service SocketService was successfully removed from the system.
+Attempt to stop service SocketService.
+Installing assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Installing service SocketService...
+Service SocketService has been successfully installed.
+Creating EventLog source SocketService in log Application...
+Committing assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Uninstalling assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Removing EventLog source SocketService.
+Service SocketService is being removed from the system...
+Service SocketService was successfully removed from the system.
+Attempt to stop service SocketService.
+Installing assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Installing service SocketService...
+Service SocketService has been successfully installed.
+Creating EventLog source SocketService in log Application...
+Committing assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Uninstalling assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Removing EventLog source SocketService.
+Service SocketService is being removed from the system...
+Service SocketService was successfully removed from the system.
+Attempt to stop service SocketService.
+Uninstalling assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Removing EventLog source SocketService.
+Service SocketService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Installing service SocketService...
+Service SocketService has been successfully installed.
+Creating EventLog source SocketService in log Application...
+Committing assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Uninstalling assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Removing EventLog source SocketService.
+Service SocketService is being removed from the system...
+Service SocketService was successfully removed from the system.
+Attempt to stop service SocketService.
+Installing assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Installing service SocketService...
+Service SocketService has been successfully installed.
+Creating EventLog source SocketService in log Application...
+Committing assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Uninstalling assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Removing EventLog source SocketService.
+Service SocketService is being removed from the system...
+Service SocketService was successfully removed from the system.
+Attempt to stop service SocketService.
+Installing assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Installing service SocketService...
+Service SocketService has been successfully installed.
+Creating EventLog source SocketService in log Application...
+Committing assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Uninstalling assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Removing EventLog source SocketService.
+Service SocketService is being removed from the system...
+Service SocketService was successfully removed from the system.
+Attempt to stop service SocketService.
+Installing assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Installing service SocketService...
+Service SocketService has been successfully installed.
+Creating EventLog source SocketService in log Application...
+Committing assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Uninstalling assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Removing EventLog source SocketService.
+Service SocketService is being removed from the system...
+Service SocketService was successfully removed from the system.
+Attempt to stop service SocketService.
+Installing assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Installing service SocketService...
+Service SocketService has been successfully installed.
+Creating EventLog source SocketService in log Application...
+Committing assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Uninstalling assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Removing EventLog source SocketService.
+Service SocketService is being removed from the system...
+Service SocketService was successfully removed from the system.
+Attempt to stop service SocketService.
+Uninstalling assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Removing EventLog source SocketService.
+Service SocketService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Installing service SocketService...
+Service SocketService has been successfully installed.
+Creating EventLog source SocketService in log Application...
+Committing assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Uninstalling assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Removing EventLog source SocketService.
+Service SocketService is being removed from the system...
+Service SocketService was successfully removed from the system.
+Attempt to stop service SocketService.
+Installing assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Installing service SocketService...
+Service SocketService has been successfully installed.
+Creating EventLog source SocketService in log Application...
+Committing assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Uninstalling assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Removing EventLog source SocketService.
+Service SocketService is being removed from the system...
+Service SocketService was successfully removed from the system.
+Attempt to stop service SocketService.
+Uninstalling assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Removing EventLog source SocketService.
+Service SocketService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Installing service SocketService...
+Service SocketService has been successfully installed.
+Creating EventLog source SocketService in log Application...
+Committing assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Uninstalling assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Removing EventLog source SocketService.
+Service SocketService is being removed from the system...
+Service SocketService was successfully removed from the system.
+Attempt to stop service SocketService.
+Installing assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
+Installing service SocketService...
+Service SocketService has been successfully installed.
+Creating EventLog source SocketService in log Application...
+Committing assembly 'C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.exe
+   logfile = C:\Users\User\Documents\GitHub\SocketService\SocketService\bin\Debug\SocketService.InstallLog
