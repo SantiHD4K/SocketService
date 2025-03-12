@@ -101,7 +101,7 @@ namespace SocketService.Services
                 case "CREAR":
                     return DatabaseHelper.CrearProducto(parts.Skip(3).ToArray());
                 case "ACTUALIZAR":
-                    return DatabaseHelper.ActualizarProducto(parts);
+                    return DatabaseHelper.ActualizarProducto(parts.Skip(3).ToArray());
                 case "ELIMINAR":
                     return DatabaseHelper.EliminarProducto(long.Parse(parts[3]));
                 case "LISTAR":
